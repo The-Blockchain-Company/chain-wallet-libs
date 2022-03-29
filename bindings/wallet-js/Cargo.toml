@@ -1,9 +1,9 @@
 [package]
 authors = ["Enzo Cioppettini <ecioppettini@atixlabs.com>"]
-description = """Wallet functionalities to interact with Jörmungandr
+description = """Wallet functionalities to interact with Quibitous
 
 This package profiles all that is needed to have an healthy and secure
-interaction with Jörmungandr blockchain technology.
+interaction with Quibitous blockchain technology.
 """
 edition = "2018"
 license = "MIT OR Apache-2.0"

@@ -14,7 +14,7 @@
 [release-badge]: https://github.com/The-Blockchain-Company/chain-wallet-libs/workflows/Release/badge.svg
 [release-url]: https://github.com/The-Blockchain-Company/chain-wallet-libs/actions?query=workflow%3ARelease
 
-Chain Wallet libs is a set of library, written in [rust-lang], to use to build application for [Jörmungandr].
+Chain Wallet libs is a set of library, written in [rust-lang], to use to build application for [Quibitous].
 
 ## released binaries
 
@@ -109,5 +109,5 @@ when manipulating raw pointers.
 - [Enhanced Mnemonic Encoding (EME)](doc/EME.md)
 
 [rust-lang]: https://www.rust-lang.org/
-[Jörmungandr]: https://The-Blockchain-Company.github.io/quibitous
+[Quibitous]: https://The-Blockchain-Company.github.io/quibitous
 [release-latest]: https://github.com/The-Blockchain-Company/chain-wallet-libs/releases/latest

@@ -1,6 +1,6 @@
-# Jörmungandr Wallet and Chain interactions
+# Quibitous Wallet and Chain interactions
 
-- list of jörmungandrwallet lib functions
+- list of quibitouswallet lib functions
 - what and how are used for/to interact with the external network.
 
 ## Wallet used in examples

@@ -1,5 +1,5 @@
 /**
- * Wallet for Jörmungandr blockchain
+ * Wallet for Quibitous blockchain
  *
  * Provide support for recovering funds from both Quantaverse and Klarity wallets.
  *
