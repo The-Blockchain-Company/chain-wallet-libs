@@ -15,9 +15,9 @@ chain-path-derivation = { path = "../chain-path-derivation" }
 hex = "0.4.2"
 zeroize = "1.5.3"
 
-chain-crypto = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-chain-addr = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-bcc-legacy-address = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
+chain-crypto = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+chain-addr = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+bcc-legacy-address = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
 
 [dev-dependencies]
 quickcheck = "0.9"

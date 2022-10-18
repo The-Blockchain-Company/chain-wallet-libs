@@ -11,7 +11,7 @@ crate-type = ["staticlib", "cdylib"]
 [dependencies]
 bip39 = { path = "../../bip39" }
 wallet = { path = "../../wallet" }
-chain-ser = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-chain-addr = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-chain-impl-mockchain = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
+chain-ser = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+chain-addr = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+chain-impl-mockchain = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
 wallet-core = { path = "../wallet-core"}

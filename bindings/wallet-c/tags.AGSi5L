@@ -1,0 +1,83 @@
+strip_line_with_version	check_header.sh	/^strip_line_with_version() {$/;"	f
+TBCO_CHAIN_WALLET_LIBC_	wallet.h	11;"	d
+Discrimination	wallet.h	/^typedef enum Discrimination$/;"	g
+Discrimination_Production	wallet.h	/^  Discrimination_Production = 0,$/;"	e	enum:Discrimination
+Discrimination_Test	wallet.h	/^  Discrimination_Test,$/;"	e	enum:Discrimination
+Discrimination	wallet.h	/^} Discrimination;$/;"	t	typeref:enum:Discrimination
+Error	wallet.h	/^typedef struct Error$/;"	s
+Error	wallet.h	/^} Error;$/;"	t	typeref:struct:Error
+ErrorPtr	wallet.h	/^typedef struct Error *ErrorPtr;$/;"	t	typeref:struct:Error
+Settings	wallet.h	/^typedef struct Settings$/;"	s
+Settings	wallet.h	/^} Settings;$/;"	t	typeref:struct:Settings
+BlockDate	wallet.h	/^typedef struct BlockDate$/;"	s
+epoch	wallet.h	/^  uint32_t epoch;$/;"	m	struct:BlockDate
+slot	wallet.h	/^  uint32_t slot;$/;"	m	struct:BlockDate
+BlockDate	wallet.h	/^} BlockDate;$/;"	t	typeref:struct:BlockDate
+Fragment	wallet.h	/^typedef struct Fragment$/;"	s
+Fragment	wallet.h	/^} Fragment;$/;"	t	typeref:struct:Fragment
+FragmentPtr	wallet.h	/^typedef struct Fragment *FragmentPtr;$/;"	t	typeref:struct:Fragment
+Proposal	wallet.h	/^typedef struct Proposal$/;"	s
+Proposal	wallet.h	/^} Proposal;$/;"	t	typeref:struct:Proposal
+ProposalPtr	wallet.h	/^typedef struct Proposal *ProposalPtr;$/;"	t	typeref:struct:Proposal
+SettingsPtr	wallet.h	/^typedef struct Settings *SettingsPtr;$/;"	t	typeref:struct:Settings
+Wallet	wallet.h	/^typedef struct Wallet$/;"	s
+Wallet	wallet.h	/^} Wallet;$/;"	t	typeref:struct:Wallet
+WalletPtr	wallet.h	/^typedef struct Wallet *WalletPtr;$/;"	t	typeref:struct:Wallet
+PerCertificateFee	wallet.h	/^typedef struct PerCertificateFee$/;"	s
+certificate_pool_registration	wallet.h	/^  uint64_t certificate_pool_registration;$/;"	m	struct:PerCertificateFee
+certificate_stake_delegation	wallet.h	/^  uint64_t certificate_stake_delegation;$/;"	m	struct:PerCertificateFee
+certificate_owner_stake_delegation	wallet.h	/^  uint64_t certificate_owner_stake_delegation;$/;"	m	struct:PerCertificateFee
+PerCertificateFee	wallet.h	/^} PerCertificateFee;$/;"	t	typeref:struct:PerCertificateFee
+PerVoteCertificateFee	wallet.h	/^typedef struct PerVoteCertificateFee$/;"	s
+certificate_vote_plan	wallet.h	/^  uint64_t certificate_vote_plan;$/;"	m	struct:PerVoteCertificateFee
+certificate_vote_cast	wallet.h	/^  uint64_t certificate_vote_cast;$/;"	m	struct:PerVoteCertificateFee
+PerVoteCertificateFee	wallet.h	/^} PerVoteCertificateFee;$/;"	t	typeref:struct:PerVoteCertificateFee
+LinearFee	wallet.h	/^typedef struct LinearFee$/;"	s
+constant	wallet.h	/^  uint64_t constant;$/;"	m	struct:LinearFee
+coefficient	wallet.h	/^  uint64_t coefficient;$/;"	m	struct:LinearFee
+certificate	wallet.h	/^  uint64_t certificate;$/;"	m	struct:LinearFee
+per_certificate_fees	wallet.h	/^  struct PerCertificateFee per_certificate_fees;$/;"	m	struct:LinearFee	typeref:struct:LinearFee::PerCertificateFee
+per_vote_certificate_fees	wallet.h	/^  struct PerVoteCertificateFee per_vote_certificate_fees;$/;"	m	struct:LinearFee	typeref:struct:LinearFee::PerVoteCertificateFee
+LinearFee	wallet.h	/^} LinearFee;$/;"	t	typeref:struct:LinearFee
+Epoch	wallet.h	/^typedef uint32_t Epoch;$/;"	t
+Slot	wallet.h	/^typedef uint64_t Slot;$/;"	t
+TimeEra	wallet.h	/^typedef struct TimeEra$/;"	s
+epoch_start	wallet.h	/^  Epoch epoch_start;$/;"	m	struct:TimeEra
+slot_start	wallet.h	/^  Slot slot_start;$/;"	m	struct:TimeEra
+slots_per_epoch	wallet.h	/^  uint32_t slots_per_epoch;$/;"	m	struct:TimeEra
+TimeEra	wallet.h	/^} TimeEra;$/;"	t	typeref:struct:TimeEra
+SettingsInit	wallet.h	/^typedef struct SettingsInit$/;"	s
+fees	wallet.h	/^  struct LinearFee fees;$/;"	m	struct:SettingsInit	typeref:struct:SettingsInit::LinearFee
+discrimination	wallet.h	/^  enum Discrimination discrimination;$/;"	m	struct:SettingsInit	typeref:enum:SettingsInit::Discrimination
+block0_initial_hash	wallet.h	/^  const uint8_t *block0_initial_hash;$/;"	m	struct:SettingsInit
+block0_date	wallet.h	/^  uint64_t block0_date;$/;"	m	struct:SettingsInit
+slot_duration	wallet.h	/^  uint8_t slot_duration;$/;"	m	struct:SettingsInit
+time_era	wallet.h	/^  struct TimeEra time_era;$/;"	m	struct:SettingsInit	typeref:struct:SettingsInit::TimeEra
+transaction_max_expiry_epochs	wallet.h	/^  uint8_t transaction_max_expiry_epochs;$/;"	m	struct:SettingsInit
+SettingsInit	wallet.h	/^} SettingsInit;$/;"	t	typeref:struct:SettingsInit
+tbco_quibitous_block_date_from_system_time	wallet.h	/^ErrorPtr tbco_quibitous_block_date_from_system_time(const struct Settings *settings,$/;"	p
+tbco_quibitous_delete_fragment	wallet.h	/^void tbco_quibitous_delete_fragment(FragmentPtr fragment);$/;"	p
+tbco_quibitous_fragment_from_raw	wallet.h	/^ErrorPtr tbco_quibitous_fragment_from_raw(const uint8_t *buffer,$/;"	p
+tbco_quibitous_fragment_id	wallet.h	/^ErrorPtr tbco_quibitous_fragment_id(FragmentPtr fragment,$/;"	p
+tbco_quibitous_max_expiration_date	wallet.h	/^ErrorPtr tbco_quibitous_max_expiration_date(const struct Settings *settings,$/;"	p
+tbco_quibitous_symmetric_cipher_decrypt	wallet.h	/^ErrorPtr tbco_quibitous_symmetric_cipher_decrypt(const uint8_t *password,$/;"	p
+tbco_quibitous_vote_proposal_new_private	wallet.h	/^ErrorPtr tbco_quibitous_vote_proposal_new_private(const uint8_t *vote_plan_id,$/;"	p
+tbco_quibitous_vote_proposal_new_public	wallet.h	/^ErrorPtr tbco_quibitous_vote_proposal_new_public(const uint8_t *vote_plan_id,$/;"	p
+tbco_quibitous_wallet_delete_buffer	wallet.h	/^void tbco_quibitous_wallet_delete_buffer(uint8_t *ptr, uintptr_t length);$/;"	p
+tbco_quibitous_wallet_delete_error	wallet.h	/^void tbco_quibitous_wallet_delete_error(ErrorPtr error);$/;"	p
+tbco_quibitous_wallet_delete_proposal	wallet.h	/^void tbco_quibitous_wallet_delete_proposal(ProposalPtr proposal);$/;"	p
+tbco_quibitous_wallet_delete_settings	wallet.h	/^void tbco_quibitous_wallet_delete_settings(SettingsPtr settings);$/;"	p
+tbco_quibitous_wallet_delete_string	wallet.h	/^void tbco_quibitous_wallet_delete_string(char *ptr);$/;"	p
+tbco_quibitous_wallet_delete_wallet	wallet.h	/^void tbco_quibitous_wallet_delete_wallet(WalletPtr wallet);$/;"	p
+tbco_quibitous_wallet_error_details	wallet.h	/^char *tbco_quibitous_wallet_error_details(ErrorPtr error);$/;"	p
+tbco_quibitous_wallet_error_to_string	wallet.h	/^char *tbco_quibitous_wallet_error_to_string(ErrorPtr error);$/;"	p
+tbco_quibitous_wallet_id	wallet.h	/^ErrorPtr tbco_quibitous_wallet_id(WalletPtr wallet,$/;"	p
+tbco_quibitous_wallet_import_keys	wallet.h	/^ErrorPtr tbco_quibitous_wallet_import_keys(const uint8_t *account_key,$/;"	p
+tbco_quibitous_wallet_set_state	wallet.h	/^ErrorPtr tbco_quibitous_wallet_set_state(WalletPtr wallet,$/;"	p
+tbco_quibitous_wallet_settings_block0_hash	wallet.h	/^ErrorPtr tbco_quibitous_wallet_settings_block0_hash(SettingsPtr settings,$/;"	p
+tbco_quibitous_wallet_settings_discrimination	wallet.h	/^ErrorPtr tbco_quibitous_wallet_settings_discrimination(SettingsPtr settings,$/;"	p
+tbco_quibitous_wallet_settings_fees	wallet.h	/^ErrorPtr tbco_quibitous_wallet_settings_fees(SettingsPtr settings,$/;"	p
+tbco_quibitous_wallet_settings_new	wallet.h	/^ErrorPtr tbco_quibitous_wallet_settings_new(struct SettingsInit settings_init,$/;"	p
+tbco_quibitous_wallet_spending_counter	wallet.h	/^ErrorPtr tbco_quibitous_wallet_spending_counter(WalletPtr wallet,$/;"	p
+tbco_quibitous_wallet_total_value	wallet.h	/^ErrorPtr tbco_quibitous_wallet_total_value(WalletPtr wallet,$/;"	p
+tbco_quibitous_wallet_vote_cast	wallet.h	/^ErrorPtr tbco_quibitous_wallet_vote_cast(WalletPtr wallet,$/;"	p

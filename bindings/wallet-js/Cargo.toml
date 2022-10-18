@@ -18,9 +18,9 @@ crate-type = ["cdylib", "rlib"]
 default = ["console_error_panic_hook"]
 
 [dependencies]
-chain-crypto = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-chain-vote = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-chain-impl-mockchain = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
+chain-crypto = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+chain-vote = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+chain-impl-mockchain = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
 getrandom = { version = "0.2.2", features = ["js"] }
 rand = "0.8.3"
 rand_chacha = "0.3.0"

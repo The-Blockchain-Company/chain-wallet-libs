@@ -18,14 +18,14 @@ itertools = "0.9"
 hashlink = "0.7.0"
 zeroize = "1.5.3"
 
-chain-time = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-chain-crypto = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-chain-addr = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-chain-impl-mockchain = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-bcc-legacy-address = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
-imhamt = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
+chain-time = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+chain-crypto = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+chain-addr = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+chain-impl-mockchain = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+bcc-legacy-address = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
+imhamt = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
 
 [dev-dependencies]
 quickcheck = "0.9"
 quickcheck_macros = "0.9"
-chain-ser = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "master" }
+chain-ser = { git = "https://github.com/The-Blockchain-Company/chain-libs.git", branch = "main" }
